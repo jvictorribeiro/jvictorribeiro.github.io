@@ -43,10 +43,7 @@ export default function Home() {
             Entre em contato!
           </a>
         </div>
-      </main>
-      
-      
-
+      </main> 
     </div>
   );
 }
