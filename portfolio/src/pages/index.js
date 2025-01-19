@@ -35,12 +35,38 @@ export default function Home() {
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
-            className="rounded-full btn btn-neutral text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
+            className="rounded-full btn btn-neutral  text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
             href="https://www.linkedin.com/in/victor-ribeiroo/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Entre em contato!
+          </a>
+        </div>
+
+        <div className="flex flex-row gap-8 md:w-full">
+          <a class="w-full h-[150px]" target="_blank" href="https://pokedex-react-vert-zeta.vercel.app/">
+            <div class="card card-side bg-base-100 shadow-lg w-full h-full gap-2 flex items-center hover:border-black p-4">
+              <div class="max-w-16 h-20">
+                <img class="rounded-lg" src="/pokeballD.png" alt="Movie" />
+              </div>
+              <div class="card-body">
+                <h2 class="card-title">Pokedex in React</h2>
+                <p>Click the button to try it.</p>
+              </div>
+            </div>
+          </a>
+
+          <a class="w-full h-[150px]" target="_blank" href="">
+            <div class="card card-side bg-base-100 shadow-lg w-full h-full gap-2 flex items-center p-4">
+              <div class="max-w-16 h-20">
+                <img class="rounded-lg" src="/calcular.png" alt="Movie" />
+              </div>
+              <div class="card-body">
+                <h2 class="card-title">Calculator</h2>
+                <p>A mac calculator clone in react native</p>
+              </div>
+            </div>
           </a>
         </div>
       </main> 
