@@ -44,9 +44,9 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="flex flex-row gap-8 md:w-full">
+        <div class="flex flex-col md:flex-row gap-8 md:w-full">
           <a class="w-full h-[150px]" target="_blank" href="https://pokedex-react-vert-zeta.vercel.app/">
-            <div class="card card-side bg-base-100 shadow-lg w-full h-full gap-2 flex items-center hover:border-black p-4">
+            <div class="card card-side bg-base-100 shadow-lg w-full h-full gap-2 flex flex-row items-center hover:border-black p-4">
               <div class="max-w-16 h-20">
                 <img class="rounded-lg" src="/pokeballD.png" alt="Movie" />
               </div>
@@ -58,7 +58,7 @@ export default function Home() {
           </a>
 
           <a class="w-full h-[150px]" target="_blank" href="">
-            <div class="card card-side bg-base-100 shadow-lg w-full h-full gap-2 flex items-center p-4">
+            <div class="card card-side bg-base-100 shadow-lg w-full h-full gap-2 flex flex-row items-center p-4">
               <div class="max-w-16 h-20">
                 <img class="rounded-lg" src="/calcular.png" alt="Movie" />
               </div>
